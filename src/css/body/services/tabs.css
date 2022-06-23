@@ -1,0 +1,64 @@
+.tabs{
+    position: relative;
+    width: 100%;
+    overflow: hidden;
+}
+
+.tabs .row.bgimg{
+    width: 100%;
+    background-image: url(../../../assets//tabs.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center;
+    margin-right: 0;
+    margin-left: 0;
+}
+
+.tabs .col{
+    text-align: center;
+    /* font-family: "Droid Sans",Helvetica,Arial,sans-serif; */
+    letter-spacing: 1px;
+    color: white;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 30vh;
+    cursor: pointer;
+}
+
+.tabs .col.first,.tabs .col.third{
+    background-color: rgba(0,0,0,0.8);
+}
+.tabs .col.sec{
+    background-color: rgba(204, 154, 79, 0.8);
+    /* background-color: #577399c9; */
+}
+
+.tabs .col h3{
+    background-color: rgba(255,255,255,0.3);
+}
+
+.tabs .col h1{
+    font-size: 35px;
+    font-weight: 300;
+    padding-top: 30px;
+    margin: 0;
+}
+
+.tabs .col h2{
+    font-size: 15px;
+    font-weight: 600;
+    padding-bottom: 30px;
+    margin: 0;
+}
+
+.tabs .col h3{
+    font-size: 15px;
+    font-weight: 400;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    margin: 0;
+}

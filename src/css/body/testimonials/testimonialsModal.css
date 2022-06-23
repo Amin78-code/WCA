@@ -1,0 +1,36 @@
+.testimonials-modal .contorls{
+    background-color: rgba(204, 154, 79, 1);
+    height: 90px;
+    position: fixed;
+    z-index: 1000;
+    width: 100%;
+    left: 50%;
+    top: 0%;
+    transform: translateX(-50%);
+}
+
+.testimonials-modal .contorls .cross{
+    float: right;
+    /* line-height: 90px; */
+    font-size: 40px;
+    margin: 25px !important;
+    margin-right: 50px !important;
+    color: white;
+}
+.testimonials-modal .contorls .cross:hover{
+    cursor: pointer;
+}
+
+.testimonials-modal .content{
+    width: 100%;
+    padding: 0 !important;
+    margin-top: 50px;
+    /* padding: 20px 40px; */
+    /* overflow-y: scroll; */
+}
+
+@media(max-width:576px){
+    .testimonials-modal .contorls .cross{
+        margin-right: 25px !important;
+    }
+}

@@ -1,0 +1,21 @@
+.map-modal .contorls{
+    background-color: rgba(204, 154, 79, 1);
+    height: 90px;
+}
+
+.map-modal .contorls .cross{
+    float: right;
+    /* line-height: 90px; */
+    font-size: 40px;
+    margin: 25px !important;
+    color: white;
+}
+.map-modal .contorls .cross:hover{
+    cursor: pointer;
+}
+
+.map-modal .content{
+    width: 100%;
+    /* padding: 20px 40px; */
+    /* overflow-y: scroll; */
+}

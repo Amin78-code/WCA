@@ -1,0 +1,85 @@
+.numbers{
+    position: relative;
+    width: 100%;
+    overflow: hidden;
+}
+
+.numbers .bgimg{
+    width: 100%;
+    background-image: url(../../assets/header.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center;
+}
+
+.numbers .wrapper {
+    background: rgba(0, 0, 0, 0.8);
+    width: 100%;
+    overflow: hidden;
+    color: white;
+    padding: 80px 0 80px 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+  .numbers .content{
+      padding: 0 40px 0 40px;
+  }
+  .numbers .content h1{
+    font-family: "Oswald", Helvetica, sans-serif;
+      text-align: center;
+      font-size: 30px;
+      font-weight: 700;
+  }
+  .numbers .content h1 span{
+    color: rgba(204, 154, 79, 0.9);
+  }
+  .numbers .content h2{
+    text-align: center;
+    font-size: 15px;
+    letter-spacing: 1.5px;
+    margin-bottom: 30px;
+    line-height: 30px;
+}
+.numbers .content h2 span{
+  color: rgba(204, 154, 79, 0.9);
+}
+.numbers .background-l{
+    background-color: rgba(97, 94, 90, 0.5) !important;
+  }
+  .numbers .background-d{
+    background-color: rgba(14, 14, 15, 0.7) !important;
+  }
+  .numbers .background-10-light {
+    background-color: rgba(255, 255, 255, 0.1) !important;
+}
+
+.numbers .col{
+    padding: 60px 0;
+    text-align: center;
+}
+.numbers .counters{
+    width: 100%;
+}
+
+.numbers .counter{
+    font-size: 45px;
+    line-height: 78px;
+    font-weight: 600;
+}
+
+.numbers h3{
+    text-transform: uppercase;
+    font-weight: 700;
+    letter-spacing: 2px;
+    margin-top: 11px;
+    margin-bottom: 0px;
+    font-size: 13px;
+    line-height: 22px;
+}
+
+.numbers .checked{
+  color: orange;
+}

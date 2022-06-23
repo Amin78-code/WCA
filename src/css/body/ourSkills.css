@@ -1,0 +1,143 @@
+.our-skills{
+    position: relative;
+    width: 100%;
+    overflow: hidden;
+}
+
+.our-skills .bgimg{
+    width: 100%;
+    background-image: url(../../assets/tabs.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center;
+}
+
+.our-skills .wrapper {
+    background: rgba(0, 0, 0, 0.9);
+    width: 100%;
+    overflow: hidden;
+    color: white;
+    padding: 80px 0 80px 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+  .our-skills .content{
+      padding: 0 40px 0 40px;
+  }
+  .our-skills .content h1{
+    font-family: "Oswald", Helvetica, sans-serif;
+}
+  .our-skills .content h1{
+      text-align: center;
+      font-weight: 700;
+      font-size: 80px;
+      text-transform: uppercase;
+      background-image: -webkit-linear-gradient( rgba(204, 154, 79, 0.66) 50%, white 50%);
+      background-repeat: repeat;
+      background-position: 0 0;
+      background-size: 100% 50px;
+      -webkit-text-fill-color: transparent;
+      -webkit-background-clip: text;
+    
+      -webkit-animation: stripes 2s linear infinite;
+      animation: stripes 2s linear infinite;
+        
+    }
+    @-webkit-keyframes stripes {
+      100% {
+        background-position: 20px 50px;
+      }
+    }
+     
+    @keyframes stripes {
+      100% {
+        background-position: 20px -50px;
+      }
+    }
+
+  .our-skills .content h2{
+      text-align: center;
+      font-size: 15px;
+      letter-spacing: 1.5px;
+      margin-bottom: 30px;
+  }
+  .our-skills .content h2 span, .our-skills .content .row p span{
+    color: rgba(204, 154, 79, 0.9);
+  }
+  .our-skills .content p{
+      text-align: center;
+      font-size: 18px;
+      margin-bottom: 50px;
+  }
+  .our-skills .content .row p{
+      text-align: left;
+      font-size: 15px;
+      letter-spacing: 1px;
+  }
+  .our-skills .content h3{
+      position: absolute;
+      z-index: 100;
+      left: 0;
+      bottom: 0;
+      font-size: 12px;
+      background-color: rgba(56, 56, 56, 0.82);
+      float: left;
+      padding: 5px 20px;
+      margin: 0;
+      line-height: 20px;
+      width: 100px;
+      text-align: center;
+  }
+  .our-skills .content .prog-bar{
+      /* width: 100%; */
+      position: relative;
+      background-color: rgba(181, 181, 181, 0.5);
+      text-align: right;
+      padding: 5px 10px;
+      font-size: 12px;
+      font-weight: 600;
+      line-height: 20px;
+      margin: 25px 0;
+  }
+  .our-skills .content .html-percentage,
+  .our-skills .content .css3-percentage,
+  .our-skills .content .jquery-percentage,
+  .our-skills .content .mysql-percentage,
+  .our-skills .content .php-percentage{
+      position: absolute;
+    height: 30px;
+    width: 0%;
+    opacity: 0;
+    left: 0;
+    bottom: 0;
+    -webkit-transition: width 2s ease-in-out;
+    -moz-transition: width 2s ease-in-out;
+    -o-transition: width 2s ease-in-out;
+    transition: width 2s ease-in-out;
+  }
+
+  .our-skills .content .dark .percent{
+    background-color: rgba(56, 56, 56, 0.6);
+  }
+  .our-skills .content .light .percent{
+    background-color: rgba(255, 255, 255, 0.5);
+  }
+  .our-skills .content .light h3{
+    background-color: rgba(255, 255, 255, 0.8);
+    color: black;
+  }
+
+  @media (max-width: 576px){
+    .our-skills .content h1{
+        font-size: 60px;
+    }
+    .our-skills .content h2{
+        font-size: 12px;
+    }
+    .our-skills .content p{
+        font-size: 18px;
+    }
+}

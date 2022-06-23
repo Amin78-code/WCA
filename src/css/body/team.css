@@ -1,0 +1,172 @@
+.team{
+    position: relative;
+    width: 100%;
+    overflow: hidden;
+}
+
+.team .bgimg{
+    width: 100%;
+    background-image: url(../../assets/about.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center;
+}
+
+.team .wrapper {
+    background: rgba(0, 0, 0, 0.8);
+    width: 100%;
+    overflow: hidden;
+    color: white;
+    padding: 80px 0 80px 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+  .team .content{
+      padding: 0 50px 0 50px;
+  }
+
+  .team .content .col{
+      text-align: center;
+      margin-bottom: 10px;
+  }
+  .team .content h1{
+    font-family: "Oswald", Helvetica, sans-serif;
+    text-align: center;
+    font-weight: 700;
+    font-size: 80px;
+    text-transform: uppercase;
+    background-image: -webkit-linear-gradient( rgba(204, 154, 79, 0.66) 50%, white 50%);
+    background-repeat: repeat;
+    background-position: 0 0;
+    background-size: 100% 50px;
+    -webkit-text-fill-color: transparent;
+    -webkit-background-clip: text;
+  
+    -webkit-animation: stripes 2s linear infinite;
+    animation: stripes 2s linear infinite;
+      
+  }
+  @-webkit-keyframes stripes {
+    100% {
+      background-position: 20px 50px;
+    }
+  }
+   
+  @keyframes stripes {
+    100% {
+      background-position: 20px -50px;
+    }
+  }
+  .team .content h2{
+    text-align: center;
+    font-size: 15px;
+    letter-spacing: 1.5px;
+    margin-bottom: 30px;
+}
+.team .content h2 span{
+  color: rgba(204, 154, 79, 0.9);
+}
+.team .content p{
+    text-align: center;
+    font-size: 18px;
+    margin-bottom: 50px;
+}
+.team .outer-box{
+  float: left;
+  margin: 0;
+  padding: 0;
+  width: calc(25% - 20px);
+  margin: 10px;
+}
+.team .box{
+  position: relative;
+  width: 100%;
+  height: auto;
+  overflow: hidden;
+  /* float: left; */
+  transition: 0.5s;
+}
+.team .box .img-box img{
+  width: 100%;
+}
+
+.team .box .img-box{
+position: relative;
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+  transition: 0.5s;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.team .box:hover .img-box{
+-ms-transform: rotate(-20deg); 
+transform: rotate(-20deg) scale(1.5);
+}
+.team .box:hover{
+cursor: pointer;
+}
+.team .sub-content{
+position: absolute;
+top: 0;
+left: 0;
+width: 100%;
+height: 100%;
+background-color: rgba(255,255,255,.8);
+color: black;
+opacity: 0;
+transition: 0.5s;
+padding: 5%;
+overflow: hidden;
+}
+.team .box:hover .sub-content{
+opacity: 1;
+}
+  .team .sub-content p{
+    position: relative;
+    text-transform: uppercase;
+    font-size: 12px;
+    left: 50%;
+    top: 50%;
+    transform: translateX(-50%) translateY(-50%);
+
+  }
+  .team .outer-box h3{
+    font-size: 15px;
+    margin-top: 10px;
+    text-align: center;
+  }
+  .team .outer-box h4{
+    font-size: 15px;
+    font-weight: lighter;
+    margin-top: 10px;
+    text-align: center;
+    color: rgba(204, 154, 79, 0.9);
+  }
+  .team h1.bottom-h{
+    font-size: 30px;
+  }
+  @media(min-width:1024px){
+    .team .bottom-p{
+      padding: 0 300px 0 300px;
+  }
+}
+
+  @media(max-width: 768px){
+    .team .outer-box{
+      width: calc(50% - 20px);
+  }
+  }
+  @media(max-width: 576px){
+    .team .outer-box{
+      width: calc(100% - 20px);
+  }
+    .team .sub-content p{
+      font-size: 8px;
+  
+    }
+  }

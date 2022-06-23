@@ -1,0 +1,80 @@
+.how-we-work{
+    position: relative;
+    width: 100%;
+    overflow: hidden;
+}
+
+.how-we-work .bgimg{
+    width: 100%;
+    background-image: url(../../assets/header.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center;
+}
+
+.how-we-work .wrapper {
+    background: rgba(0, 0, 0, 0.7);
+    width: 100%;
+    overflow: hidden;
+    color: white;
+    padding: 80px 0 80px 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .how-we-work .content{
+      padding: 0 50px 0 50px;
+  }
+
+  .how-we-work .content h1{
+    font-family: "Oswald", Helvetica, sans-serif;
+      text-align: center;
+      font-size: 30px;
+      font-weight: 700;
+  }
+  .how-we-work .content h1 span{
+    color: rgba(204, 154, 79, 0.9);
+  }
+  .how-we-work .content p{
+      text-align: center;
+      margin-bottom: 50px;
+      font-size: 15px;
+  }
+  .how-we-work .content h2{
+      font-size: 15px;
+      font-weight: 600;
+      text-align: center;
+      letter-spacing: 1px;
+  }
+  .how-we-work .content .h-border{
+      width: 80px;
+      border-bottom: 3px solid white;
+      margin: auto;
+      margin-top: 20px;
+      margin-bottom: 20px;
+  }
+
+  .how-we-work .content .circle{
+      width: 120px;
+      height: 120px;
+      border: 1px solid white;
+      border-radius: 50%;
+      margin: auto;
+      margin-bottom: 20px;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+  }
+
+  .how-we-work .content .circle .icon{
+      font-size: 25px;
+  }
+  @media(min-width:1024px){
+  .how-we-work .content p.top{
+    padding: 0 300px 0 300px;
+}
+  }

@@ -1,0 +1,65 @@
+.join-us{
+    position: relative;
+    z-index: 100;
+    width: 100%;
+    overflow: hidden;
+}
+
+.join-us .bgimg{
+    width: 100%;
+    height: auto;
+    background-image: url(../../../assets/tabs.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center;
+}
+
+.join-us .content{
+    font-family: "Oswald", sans-serif;
+    text-transform: uppercase;
+    width: 100%;
+    margin: 0;
+    color: white;
+    font-size: 2.5vw;
+}
+
+.join-us .content .col{
+    height: 33vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    cursor: pointer;
+}
+
+.join-us .content .cr-col{
+    background-color: rgba(66, 66, 66, 0.9);
+
+}
+
+.join-us .content .st-col{
+    background-color: rgba(204, 154, 79, 0.8);
+
+}
+.join-us .content .btb-col{
+    background-color: rgba(0, 0, 0, 0.64);
+
+}
+@media(max-width: 1000px) and (orientation: landscape){
+    .join-us .content{
+        font-size: 5vh;
+    }
+}
+
+@media(max-width: 767px){
+    .join-us .content{
+        font-size: 5vh;
+    }
+}
+
+@media(max-width: 576px){
+    .join-us .content{
+        font-size: 4vh;
+    }
+}

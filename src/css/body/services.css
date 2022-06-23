@@ -1,0 +1,97 @@
+.services{
+    position: relative;
+    width: 100%;
+    overflow: hidden;
+}
+
+.services .bgimg{
+    width: 100%;
+    background-image: url(../../assets/tabs.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center;
+}
+
+.services .wrapper {
+    background: rgba(0, 0, 0, 0.9);
+    width: 100%;
+    overflow: hidden;
+    color: white;
+    padding: 80px 0 80px 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+  .services .content{
+      padding: 0 40px 0 40px;
+  }
+  
+  .services .content h1, .services .content h2, .services .content h3{
+    font-family: "Oswald", Helvetica, sans-serif;
+}
+  .services .content h1{
+      text-align: center;
+      font-weight: 700;
+      font-size: 80px;
+      text-transform: uppercase;
+      background-image: -webkit-linear-gradient( rgba(204, 154, 79, 0.66) 50%, white 50%);
+      background-repeat: repeat;
+      background-position: 0 0;
+      background-size: 100% 50px;
+      -webkit-text-fill-color: transparent;
+      -webkit-background-clip: text;
+    
+      -webkit-animation: stripes 2s linear infinite;
+      animation: stripes 2s linear infinite;
+        
+    }
+    @-webkit-keyframes stripes {
+      100% {
+        background-position: 20px 50px;
+      }
+    }
+     
+    @keyframes stripes {
+      100% {
+        background-position: 20px -50px;
+      }
+    }
+
+  .services .content h2{
+      text-align: center;
+      font-size: 15px;
+      letter-spacing: 1.5px;
+      margin-bottom: 30px;
+  }
+  .services .content h2 span, .services .content .row p span{
+    color: rgba(204, 154, 79, 0.9);
+  }
+  .services .content p{
+      text-align: center;
+      font-size: 18px;
+      margin-bottom: 50px;
+  }
+  .services .content .row p{
+      text-align: left;
+  }
+  .services h3{
+      border-top: 1px solid rgba(204, 154, 79, 0.9);
+      padding-top: 20px;
+      font-weight: 700;
+      font-size: 20px;
+      letter-spacing: 2px;
+  }
+
+  @media (max-width: 480px){
+    .services .content h1{
+        font-size: 60px;
+    }
+    .services .content h2{
+        font-size: 12px;
+    }
+    .services .content p{
+        font-size: 18px;
+    }
+}

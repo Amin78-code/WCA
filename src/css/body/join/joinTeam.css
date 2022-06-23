@@ -1,0 +1,154 @@
+.join-team{
+    position: relative;
+    width: 100%;
+    min-height: 100vh;
+}
+
+.join-team .bgimg{
+    width: 100%;
+    min-height: 100vh;
+    background-image: url(../../../assets/join.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center;
+}
+
+.join-team .image-wrapper{
+    width: 100%;
+    min-height: 100vh;
+    background-color: rgba(0,0,0,0.8);
+    background-attachment: fixed;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+}
+
+.join-team .content{
+    color: #f1f1f1;
+    overflow: hidden;
+}
+
+.join-team .content .container-fluid{
+  
+  padding: 50px 40px 0;
+}
+
+.join-team .wrapper{
+    background-color: rgba(0,0,0,0.5);
+    padding: 15px 25px;
+    text-transform: uppercase;
+}
+
+
+.join-team .content h1{
+    font-family: "Oswald", sans-serif;
+  font-family: "Oswald", Helvetica, sans-serif;
+    font-weight: 700;
+    font-size: 5rem;
+    text-transform: uppercase;
+    margin-bottom: 50px;
+    background-image: -webkit-linear-gradient( rgba(204, 154, 79, 0.66) 50%, white 50%);
+    background-repeat: repeat;
+    background-position: 0 0;
+    background-size: 100% 50px;
+    -webkit-text-fill-color: transparent;
+    -webkit-background-clip: text;
+  
+    -webkit-animation: stripes 2s linear infinite;
+    animation: stripes 2s linear infinite;
+      
+  }
+  @-webkit-keyframes stripes {
+    100% {
+      background-position: 20px 50px;
+    }
+  }
+   
+  @keyframes stripes {
+    100% {
+      background-position: 20px -50px;
+    }
+  }
+
+.join-team .row .col{
+  padding: 15px;
+  display:flex;
+  justify-content:center;
+  align-items:center;
+  text-align: center;
+}
+
+.join-team .btn{
+  font-weight: bold;
+  color: #f1f1f1;
+  border: #f1f1f1 1px solid;
+  background-color: hsla(0, 0%, 0%, 0);
+  font-size: 1rem;
+  border-radius: 5px;
+  padding: 10px;
+  width: 80%;
+}
+
+.join-team .btn:hover{
+  color: black;
+  background-color: white;
+}
+
+@media(min-width: 1300px){
+  .join-team .content .container-fluid{
+      padding-right: 200px;
+      padding-left: 200px;
+  }
+}
+
+@media(max-width: 767px){
+    .join-team .content h1{
+      font-size: 4rem;
+      margin-bottom: 40px;
+    }
+
+    .join-team .content p{
+      font-size: 15px;
+    }
+    .join-team .content h5{
+        font-size: 15px;
+    }
+  }
+
+  @media(max-width: 1000px) and (orientation: landscape){
+    .join-team{
+      /* height: 150vh; */
+    }
+    .join-team .content h1{
+      font-size: 3rem;
+      margin-bottom: 20px;
+    }
+
+    .join-team .content p{
+      font-size: 12px;
+    }
+    .join-team .content h5{
+        font-size: 12px;
+    }
+  }
+
+
+  @media(max-width: 576px){
+    .join-team .content h1{
+      font-size: 3rem;
+      margin-bottom: 20px;
+    }
+
+    .join-team .content p{
+      font-size: 12px;
+    }
+    .join-team .content h5{
+        font-size: 12px;
+    }
+      
+    .join-team .content h5{
+        font-size: 12px;
+    }
+  }

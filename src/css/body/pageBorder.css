@@ -1,0 +1,261 @@
+.page-border{
+    z-index: 1030;
+    position: fixed;
+    display: block;
+    background-color: #cc9a4f;
+  }
+
+  .page-border.left ul, .page-border.right ul{
+    position: fixed;
+    z-index: 1030;
+    width: 25px;
+    top: 50%;
+    transform: translateY(-50%);
+    -webkit-transform: translateY(-50%);
+    padding-left: 0;
+    list-style: none;
+    text-align: center;
+    font-size: 13px;
+    line-height: 22px;
+    letter-spacing: 1.2px;
+  }
+
+  .page-border.left ul > li, .page-border.right ul > li{
+    padding: 3px 0;
+    color: white;
+    cursor: pointer;
+  }
+  .page-border.right ul > li .circle{
+      font-size: 5px;
+  }
+
+  .page-border.left ul a{
+    color: white;
+    transition: color .3s, background-color .3s;
+  }
+
+  .state1 .page-border.top{
+    top: 15px;
+    left: 15px;
+    right: 15px;
+    height: 25px;
+    font-weight: 800;
+    text-transform: uppercase;
+    padding-top: 2px;
+    font-size: 12px;
+    letter-spacing: 1px;
+    transition: height 0.5s, top 0.5s, right 0.5s, left 0.5s, bottom 0.5s;
+  }
+
+  .state1 .page-border.top h5{
+      font-size: initial;
+      display: inline;
+      color: #f1f1f1;
+      line-height: 25px;
+      margin: 0;
+      float: right;
+      margin-right: 35px;
+  }
+
+  .state1 .page-border.bottom{
+    bottom: 15px;
+    right: 15px;
+    left: 15px;
+    height: 25px;
+    text-align: center;
+    font-weight: 800;
+    text-transform: uppercase;
+    padding-top: 2px;
+    font-size: 12px;
+    letter-spacing: 1px;
+    transition: top 0.5s, right 0.5s, left 0.5s, bottom 0.5s;
+    font-family: "Oswald", Helvetica, sans-serif;
+  }
+
+  .page-border.bottom span span{
+      color: white;
+  }
+
+  .state1 .page-border.left{
+    left: 15px;
+    top: 40px;
+    bottom: 90px;
+    width: 25px;
+    transition: top 0.5s, right 0.5s, left 0.5s, bottom 0.5s, height 0.5s;
+  }
+
+  .state1 .page-border.right{
+    right: 15px;
+    top: 40px;
+    bottom: 90px;
+    width: 25px;
+    transition: top 0.5s, right 0.5s, left 0.5s, bottom 0.5s, height 0.5s;
+  }
+
+  .state1 .page-border.border-pad{
+    top: auto !important;
+    bottom: 30px;
+    height: 200px;
+    width: 25px;
+  }
+
+
+
+
+
+
+
+  .state2 .page-border.top{
+    top: 0;
+    left: 0;
+    right: 0;
+    height: 40px;
+    font-weight: 800;
+    text-transform: uppercase;
+    padding-top: 2px;
+    font-size: 12px;
+    letter-spacing: 1px;
+    transition: height 0.5s, top 0.5s, right 0.5s, left 0.5s, bottom 0.5s;
+  }
+
+  .state2 .page-border.top h5{
+      font-size: initial;
+      display: inline;
+      color: #f1f1f1;
+      line-height: 40px;
+      margin: 0;
+      float: right;
+      margin-right: 35px;
+  }
+
+  .state2 .page-border.bottom{
+    bottom: 0;
+    right: 0;
+    left: 0;
+    height: 25px;
+    text-align: center;
+    font-weight: 800;
+    text-transform: uppercase;
+    padding-top: 2px;
+    font-size: 12px;
+    letter-spacing: 1px;
+    transition: top 0.5s, right 0.5s, left 0.5s, bottom 0.5s;
+    font-family: "Oswald", Helvetica, sans-serif;
+  }
+
+  .state2 .page-border.left{
+    left: 0;
+    top: 40px;
+    bottom: 75px;
+    width: 25px;
+    transition: top 0.5s, right 0.5s, left 0.5s, bottom 0.5s, height 0.5s;
+  }
+
+  .state2 .page-border.right{
+    right: 0;
+    top: 40px;
+    bottom: 75px;
+    width: 25px;
+    transition: top 0.5s, right 0.5s, left 0.5s, bottom 0.5s, height 0.5s;
+  }
+
+  .state2 .page-border.border-pad{
+    top: auto !important;
+    bottom: 15px;
+    height: 200px;
+    width: 25px;
+  }
+
+ 
+@media(max-width: 777px){
+  .state1 .page-border.top{
+    top: 0;
+    left: 0;
+    right: 0;
+    height: 40px;
+    font-weight: 800;
+    text-transform: uppercase;
+    padding-top: 2px;
+    font-size: 12px;
+    letter-spacing: 1px;
+    transition: height 0.5s, top 0.5s, right 0.5s, left 0.5s, bottom 0.5s;
+  }
+
+  .state1 .page-border.top h5{
+      font-size: initial;
+      display: inline;
+      color: #f1f1f1;
+      line-height: 40px;
+      margin: 0;
+      float: right;
+      margin-right: 35px;
+  }
+
+  .state1 .page-border.bottom{
+    bottom: 0;
+    right: 0;
+    left: 0;
+    height: 25px;
+    text-align: center;
+    font-weight: 800;
+    text-transform: uppercase;
+    padding-top: 2px;
+    font-size: 12px;
+    letter-spacing: 1px;
+    transition: top 0.5s, right 0.5s, left 0.5s, bottom 0.5s;
+    font-family: "Oswald", Helvetica, sans-serif;
+  }
+
+  .state1 .page-border.left{
+    left: 0;
+    top: 40px;
+    bottom: 75px;
+    width: 25px;
+    transition: top 0.5s, right 0.5s, left 0.5s, bottom 0.5s, height 0.5s;
+  }
+
+  .state1 .page-border.right{
+    right: 0;
+    top: 40px;
+    bottom: 75px;
+    width: 25px;
+    transition: top 0.5s, right 0.5s, left 0.5s, bottom 0.5s, height 0.5s;
+  }
+
+  .state1 .page-border.border-pad{
+    top: auto !important;
+    bottom: 15px;
+    height: 200px;
+    width: 25px;
+  }
+}
+
+
+  @media(max-width: 767px){
+    .page-border.left, .page-border.right, .page-border.bottom{
+      display: none;
+    }
+  
+    .state1 .page-border.top{
+    top: 0;
+    left: 0;
+    right: 0;
+    height: 40px;
+    font-weight: 800;
+    text-transform: uppercase;
+    padding-top: 2px;
+    font-size: 12px;
+    letter-spacing: 1px;
+    transition: height 0.5s, top 0.5s, right 0.5s, left 0.5s, bottom 0.5s;
+  }
+
+  .state1 .page-border.top h5{
+      font-size: initial;
+      display: inline;
+      color: #f1f1f1;
+      line-height: 40px;
+      margin: 0;
+      float: right;
+      margin-right: 35px;
+  }
+  }

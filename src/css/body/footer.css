@@ -1,0 +1,172 @@
+.footer{
+    position: relative;
+    width: 100%;
+    overflow: hidden;
+    background-color: #181818;
+    color: white;
+    font-family: "Oswald", Helvetica, sans-serif;
+}
+
+.footer .container{
+    padding: 50px 15px;
+}
+
+.footer .col{
+    text-align: left;
+}
+.footer .first-col{
+    text-align: center;
+}
+
+.footer .col h1{
+    font-weight: 800;
+    font-size: 20px;
+    /* text-align: left; */
+    text-transform: uppercase;
+}
+/* .footer .f-logo{
+    text-align: center;
+} */
+
+.footer .col h6{
+    font-family: "Oswald", Helvetica, sans-serif;
+    font-size: 16px;
+    line-height: 19px;
+    font-weight: 700;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+}
+
+.footer .col p{
+    font-size: 12px;
+    line-height: 22px;
+    letter-spacing: 1.2px;
+    color: #8c8c8c;
+}
+.footer .col p.logo-bottom{
+    font-size: 15px;
+    color: white;
+    text-align: center;
+
+}
+
+.footer .col p span:hover, .footer .sec-col a:hover{
+    cursor: pointer;
+    color: #747474;
+}
+
+.footer .first-col h1 span{
+    color: #cc9a4f
+  }
+
+  .footer .icon{
+    cursor: pointer;
+    font-size: 20px;
+    margin:5px;
+    color: white;
+}
+
+.footer .icon:hover{
+    /* color: #747474; */
+}
+
+.footer a, .footer a .icon{
+    color: #8c8c8c;
+    text-decoration: none;
+}
+
+.footer a:hover, .footer a .icon:hover{
+    color: #747474;
+}
+
+.footer .copyrights{
+    background-color: #1c1c1c;
+    padding: 30px 30px;
+}
+
+.footer .copyrights p{
+    text-align: center;
+}
+
+.footer .last-col .our-reviews img{
+    width: 80px;
+    height: 80px;
+    word-break: break-all;
+    border: 3px solid #cc9a4f;
+}
+
+.footer .last-col .our-reviews span{
+    position: relative;
+    display: inline-block;
+    width: 80px;
+    height: 80px;
+    margin: 2px;
+}
+.footer .last-col .our-reviews .video-icon{
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translateX(-50%) translateY(-50%);
+    font-size: 30px;
+    color: #cc9a4f;
+}
+
+.footer .last-col .our-reviews span:hover, .footer .sec-col a:hover{
+    cursor: pointer;
+}
+
+.footer .last-col .our-reviews span:hover .video-icon{
+    color: lightgray;
+}
+
+.footer .last-col .our-reviews span:hover img{
+    border: 3px solid lightgray;
+}
+
+#footer-reviews-modal{
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 1040;
+    width: 100%;
+    height: 100vh;
+    overflow-y: scroll;
+    overflow-x: hidden;
+    background-color: rgba(14, 14, 15, 0.95);
+    display: none;
+  }
+
+@media(max-width: 1300px){
+    .footer .col h1{
+        font-weight: 700;
+        font-size: 18px;
+    }
+    .footer .col h6{
+        font-size: 15px;
+        font-weight: 600;
+    }
+    
+    .footer .col p{
+        font-size: 10px;
+        line-height: 22px;
+        letter-spacing: 1.2px;
+    }
+}
+
+@media(max-width: 1000px){
+    .footer .col h1{
+        font-weight: 600;
+        font-size: 15px;
+    }
+    .footer .col h6{
+        font-size: 12px;
+        font-weight: 500;
+    }
+    
+    .footer .col p{
+        font-size: 10px;
+        line-height: 22px;
+        letter-spacing: 1.2px;
+    }
+
+}

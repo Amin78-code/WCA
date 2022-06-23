@@ -1,0 +1,49 @@
+.who-we-are{
+    position: relative;
+    width: 100%;
+    overflow: hidden;
+    background-color: #181818;
+    color: white;
+}
+
+.who-we-are .first{
+    background-image: url(../../assets/wwa.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.who-we-are button{
+    font-family: "Oswald", Helvetica, sans-serif;
+    letter-spacing: 2px;
+    font-size: 15px;
+    background-color: rgba(0,0,0,.5);
+    color: white;
+    border: 1px solid rgba(255,255,255,0.5);
+    padding: 10px 20px;
+}
+.who-we-are button:hover{
+    background-color: rgba(0,0,0,.4);
+}
+.who-we-are .sec{
+    padding: 60px 150px;
+}
+.who-we-are h1{
+    font-family: "Oswald", Helvetica, sans-serif;
+    font-weight: 700;
+    font-size: 30px;
+}
+.who-we-are span{
+    color: rgba(204, 154, 79, 0.9);
+}
+@media (max-width: 992px){
+    .who-we-are .first{
+        height: 50vh;
+    }
+    .who-we-are .sec{
+        padding: 60px 60px;
+    }
+}

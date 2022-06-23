@@ -1,0 +1,105 @@
+.testimonials{
+    position: relative;
+    width: 100%;
+    overflow: hidden;
+}
+
+.testimonials .bgimg{
+    width: 100%;
+    background-image: url(../../../assets/about.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center;
+}
+
+.testimonials .wrapper {
+    background: rgba(0, 0, 0, 0.8);
+    width: 100%;
+    overflow: hidden;
+    color: white;
+    padding: 80px 0 80px 0;
+  }
+  .testimonials .content{
+      padding: 0 40px 0 40px;
+  }
+  .testimonials .content h1, .testimonials .content h3{
+    font-family: "Oswald", Helvetica, sans-serif;
+}
+  .testimonials .content h1{
+      text-align: center;
+      font-weight: 700;
+      font-size: 80px;
+      text-transform: uppercase;
+      background-image: -webkit-linear-gradient( rgba(204, 154, 79, 0.66) 50%, white 50%);
+      background-repeat: repeat;
+      background-position: 0 0;
+      background-size: 100% 50px;
+      -webkit-text-fill-color: transparent;
+      -webkit-background-clip: text;
+    
+      -webkit-animation: stripes 2s linear infinite;
+      animation: stripes 2s linear infinite;
+        
+    }
+    
+    #testimonials-modal{
+      position: fixed;
+      top: 0;
+      left: 0;
+      z-index: 1040;
+      width: 100%;
+      height: 100vh;
+      overflow-y: scroll;
+      overflow-x: hidden;
+      background-color: rgba(14, 14, 15, 0.95);
+      display: none;
+    }
+    @-webkit-keyframes stripes {
+      100% {
+        background-position: 20px 50px;
+      }
+    }
+     
+    @keyframes stripes {
+      100% {
+        background-position: 20px -50px;
+      }
+    }
+    .testimonials .content h2{
+        text-align: center;
+        font-size: 15px;
+        letter-spacing: 1.5px;
+        margin-bottom: 60px;
+    }
+    .testimonials .content h2 span{
+      color: rgba(204, 154, 79, 0.9);
+    }
+    .testimonials .testi-btn{
+        display: inline-block;
+        text-decoration: none;
+        font-family: "Oswald", Helvetica, sans-serif;
+        letter-spacing: 2px;
+        font-size: 20px;
+        background-color: transparent;
+        color: white;
+        border: 1px solid rgba(255,255,255,0.5);
+        padding: 10px 20px;
+        margin-top: 60px;
+        position: relative;
+        left: 50%;
+        top: 50%;
+        transform: translateX(-50%) translateY(-50%);
+      }
+      .testimonials .testi-btn:hover{
+        background-color: rgba(211, 211, 211, 0.205);
+        cursor: pointer;
+      }
+      @media(max-width: 576px){
+      .testimonials .content{
+        padding: 0;
+    }
+      .testimonials .content h1{
+          font-size: 40px;
+      }
+      }

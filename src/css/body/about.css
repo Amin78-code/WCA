@@ -1,0 +1,96 @@
+.about{
+    position: relative;
+    width: 100%;
+    overflow: hidden;
+}
+
+.about .bgimg{
+    width: 100%;
+    background-image: url(../../assets/about.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center;
+}
+
+.about .wrapper {
+    background: rgba(0, 0, 0, 0.8);
+    width: 100%;
+    overflow: hidden;
+    color: white;
+    padding: 80px 0 80px 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+  .about .content{
+      padding: 0 40px 0 40px;
+  }
+  .about .content h1, .about .content h3{
+    font-family: "Oswald", Helvetica, sans-serif;
+}
+  .about .content h1{
+      text-align: center;
+      font-weight: 700;
+      font-size: 80px;
+      text-transform: uppercase;
+      background-image: -webkit-linear-gradient( rgba(204, 154, 79, 0.66) 50%, white 50%);
+      background-repeat: repeat;
+      background-position: 0 0;
+      background-size: 100% 50px;
+      -webkit-text-fill-color: transparent;
+      -webkit-background-clip: text;
+    
+      -webkit-animation: stripes 2s linear infinite;
+      animation: stripes 2s linear infinite;
+        
+    }
+    @-webkit-keyframes stripes {
+      100% {
+        background-position: 20px 50px;
+      }
+    }
+     
+    @keyframes stripes {
+      100% {
+        background-position: 20px -50px;
+      }
+    }
+
+  .about .content h2{
+      text-align: center;
+      font-size: 15px;
+      letter-spacing: 1.5px;
+      margin-bottom: 30px;
+  }
+  .about .content h2 span{
+    color: rgba(204, 154, 79, 0.9);
+  }
+  .about .content p{
+      text-align: center;
+      font-size: 18px;
+      margin-bottom: 50px;
+  }
+  .about .content .row .icon{
+      font-size: 30px;
+  }
+  .about .content .row h3 span{
+    color: rgba(204, 154, 79, 0.9);
+  }
+  .about .content .row p{
+      text-align: left;
+      font-size: 15px;
+  }
+
+  @media (max-width: 576px){
+      .about .content h1{
+          font-size: 60px;
+      }
+      .about .content h2{
+          font-size: 12px;
+      }
+      .about .content p{
+          font-size: 18px;
+      }
+}
